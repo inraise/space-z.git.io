@@ -1,0 +1,134 @@
+header {
+    background-color: #222222;
+    padding-top: 55px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New';
+    width: 244px;
+    font-size: 45px;
+    margin-top: 113px;
+}
+
+.main-logo {
+    height: 62px;
+    width: 62px;
+}
+
+@media (max-width: 1000px) {
+    .moon-rocket-image {
+        display: none;
+    }
+}
+
+.main-nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-nav li {
+    padding-left: 30px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #D4D4D4;
+}
+
+.main-nav a:hover {
+    color: white;
+}
+
+.top-container {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+nav a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+a[class]:hover {
+    opacity: 0.8;
+}
+
+.email-icon-nav {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.icon-email {
+    height: 12px;
+    width: 17px;
+}
+
+.icon-phone {
+    height: 17px;
+    width: 17px;
+}
+
+.header-description {
+    width: 254px;
+    color: #D4D4D4;
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 21px;
+}
+
+.main-container {
+    margin-left: 133px;
+    display: flex;
+}
+
+.header-yellow-button {
+    margin-top: 55px;
+    width: 240px;
+    height: 50px;
+    background-color: #FFCB06;
+    border-radius: 25px;
+    border: #FFCB06;
+    display: block;
+    padding: 0 25px;
+}
+
+.header-yellow-button:hover {
+    background-color: white;
+}
+
+.header-yellow-button p {
+    float: left;
+    font-size: 14px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 10px;
+}
+
+.header-yellow-button img {
+    width: 19px;
+    height: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+}
+
+.moon-rocket-image {
+    height: 438px;
+    width: 438px;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 120px;
+}
