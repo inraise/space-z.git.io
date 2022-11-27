@@ -8,6 +8,10 @@
     .advantage-elements div {
         padding: 5px 10px;
     }
+
+    .timetable {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -30,6 +34,18 @@
     .phone-icon-nav {
         display: none;
     }
+
+    .timetable {
+        font-size: 11px;
+    }
+
+    .left-content-column {
+        width: 40%;
+    }
+
+    .right-content-column {
+        width: 40%;
+    }
 }
 
 @media (max-width: 1260px) {
@@ -41,5 +57,19 @@
 @media (max-width: 1000px) {
     .moon-rocket-image {
         display: none;
+    }
+}
+
+@media (max-width: 460px) {
+    .advantage-elements div {
+        display: flex;
+        padding-top: 25px;
+    }
+
+    .advantage-elements div p {
+        margin: auto;
+        font-size: 13px;
+        margin-left: 10px;
+        padding-left: 20px;
     }
 }
