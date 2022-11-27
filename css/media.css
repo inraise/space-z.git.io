@@ -21,18 +21,12 @@
     
     .main-nav {
         padding-left: 0;
+        display: block;
     }
 
     .main-nav li {
-        padding-left: 20px;
-    }
-
-    .email-icon-nav {
-        display: none;
-    }
-    
-    .phone-icon-nav {
-        display: none;
+        padding-left: 40px;
+        padding-top: 10px;
     }
 
     .timetable {
