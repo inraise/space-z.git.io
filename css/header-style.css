@@ -92,6 +92,7 @@ a[class]:hover {
 .main-container {
     margin-left: 133px;
     display: flex;
+    padding-bottom: 120px;
 }
 
 .header-yellow-button {
@@ -130,5 +131,4 @@ a[class]:hover {
     width: 438px;
     margin-left: auto;
     margin-top: 25px;
-    margin-bottom: 120px;
 }
