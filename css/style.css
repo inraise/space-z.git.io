@@ -88,19 +88,17 @@ button {
 }
 
 .content-map {
-    height: 346px;
-    width: 440px;
+    height: auto;
+    width: 100%;
 }
 
 .title-left-content {
     font-family: 'Courier New';
     font-size: 24px;
     font-weight: 700;
-    width: 375px;
 }
 
 .p-left-content {
-    width: 454px;
     font-size: 14px;
     margin-top: 45px;
 }
@@ -128,6 +126,7 @@ button {
 h3 {
     font-family: 'Courier New';
     font-size: 24px;
+    padding-top: 30px;
 }
 
 .content ul li {
@@ -149,7 +148,6 @@ h3 {
 
 .content ul li p {
     font-size: 14px;
-    width: 425px;
     margin-left: 8px;
 }
 
