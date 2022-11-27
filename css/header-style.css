@@ -21,12 +21,6 @@ h1 {
     width: 62px;
 }
 
-@media (max-width: 1000px) {
-    .moon-rocket-image {
-        display: none;
-    }
-}
-
 .main-nav {
     display: flex;
     list-style-type: none;

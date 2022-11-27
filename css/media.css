@@ -1,0 +1,23 @@
+@media (min-width: 620px) {
+    .advantage-elements div {
+        padding: 20px 45px;
+    }
+}
+
+@media (max-width: 620px) {
+    .advantage-elements div {
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .left-content {
+        order: 3;
+    }
+}
+
+@media (max-width: 1000px) {
+    .moon-rocket-image {
+        display: none;
+    }
+}
